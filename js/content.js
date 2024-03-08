@@ -114,7 +114,7 @@ const showMenu= (toggleId, navId) =>{
   
   
   /*===== SWIPER CAROUSEL =====*/ 
-  const mySwiper = new Swiper('.reviews__container ', {
+  const mySwiper = new mySwiper('.reviews__container ', {
     // Optional parameters
     spaceBetween:16,
     loop: true,
@@ -147,4 +147,4 @@ const showMenu= (toggleId, navId) =>{
   gsap.from(".nav__item", {opacity:0,duraction:2, delay:1.8, y:25, ease:'expo.out', stagger:.2})
   gsap.from(".home__social-icon", {opacity:0,duraction:2, delay:2.3, y:25, ease:'expo.out', stagger:.2})
   
-  ///https://www.youtube.com/watch?v=BS6blX035NM 
+//   ///https://www.youtube.com/watch?v=BS6blX035NM 

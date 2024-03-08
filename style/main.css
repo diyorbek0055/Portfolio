@@ -468,6 +468,7 @@ font-size: 3rem;
 .portfolio__item{
   margin:0 var(--mb-2);
   cursor: pointer;
+
 }
 .portfolio__content{
   background-color: #fff;
@@ -480,10 +481,11 @@ font-size: 3rem;
 }
 .portfolio__content:hover , .portfolio__img{
   transform: scale(1.02);
+
 }
 .portfolio__img{
-  width: 100%;
   transition: 0.4s;
+  width: 100%;
 }
 .portfolio__data{
  padding:1.5rem;
@@ -762,3 +764,6 @@ color: var(--first-color-light);
  }
 }
 
+.header{
+  width: 500px;
+}
