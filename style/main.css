@@ -486,6 +486,12 @@ font-size: 3rem;
 .portfolio__img{
   transition: 0.4s;
   width: 100%;
+
+}
+.portfolio img{
+  border-radius: 0.5rem;
+  width: 400px;
+  height: 204px;
 }
 .portfolio__data{
  padding:1.5rem;
